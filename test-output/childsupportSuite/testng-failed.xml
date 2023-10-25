@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [childsupportSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="https://childsupport.ca.gov/"/>
+  <parameter name="email" value="https://gmail.com/"/>
+  <test thread-count="5" name="contact_us_pagevalidation(failed)">
+    <parameter name="title" value="CA Child Support Services"/>
+    <classes>
+      <class name="testing.TC_003">
+        <methods>
+          <include name="close_application"/>
+          <include name="test_homepage_1" invocation-numbers="0"/>
+          <include name="launch_application"/>
+        </methods>
+      </class> <!-- testing.TC_003 -->
+    </classes>
+  </test> <!-- contact_us_pagevalidation(failed) -->
+</suite> <!-- Failed suite [childsupportSuite] -->
