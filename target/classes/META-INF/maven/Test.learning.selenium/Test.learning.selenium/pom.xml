@@ -60,7 +60,9 @@
                <!--   <suiteXmlFile>testNG/ChildSupport.xml</suiteXmlFile> -->
                 <!--   <suiteXmlFile>testNG/iframelearning.xml</suiteXmlFile> -->
                 <!--   <suiteXmlFile>testNG/iframelearning.xml</suiteXmlFile> -->
-                <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                
+                
+              <!--  <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>  -->
                 
                </suiteXmlFiles>
             </configuration>
